@@ -1,0 +1,93 @@
+/* Layout หลัก */
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 0 20px;
+}
+
+header h1 { color: #2c3e50; margin-bottom: 5px; }
+header p { color: #7f8c8d; margin-top: 0; margin-bottom: 30px; }
+
+/* Card Container */
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  overflow: hidden; /* บังมุมมน */
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+thead {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #e9ecef;
+}
+
+th {
+  padding: 16px;
+  font-size: 14px;
+  color: #6c757d;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 16px;
+  border-bottom: 1px solid #e9ecef;
+  vertical-align: middle;
+}
+
+tr:hover {
+  background-color: #f8f9fa; /* Hover effect */
+}
+
+/* Elements */
+.user-info { display: flex; flex-direction: column; }
+.user-info .name { font-weight: 500; color: #2c3e50; }
+.user-info .email { font-size: 12px; color: #adb5bd; }
+
+.badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  background: #e9ecef;
+  color: #495057;
+}
+
+.badge.vip {
+  background: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+
+/* Button & Secret */
+.btn-reveal {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background 0.2s;
+}
+
+.btn-reveal:hover { background: #0056b3; }
+.btn-reveal:disabled { background: #ccc; cursor: not-allowed; }
+
+.secret-data {
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  color: #d63384;
+  background: #fce4ec;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.text-muted { color: #ccc; font-style: italic; }
