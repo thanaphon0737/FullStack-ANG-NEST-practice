@@ -1,0 +1,3 @@
+[submodule "secure-vault-backend"]
+	path = secure-vault-backend
+	url = https://github.com/thanaphon0737/secure-vault-backend.git
